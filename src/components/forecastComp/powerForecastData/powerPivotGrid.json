@@ -1,0 +1,386 @@
+[
+  {
+    "date": "2022-12-26",
+    "time": "00:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "01:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "02:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "03:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "04:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "05:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "00:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-26",
+    "time": "01:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-26",
+    "time": "02:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-26",
+    "time": "03:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-26",
+    "time": "04:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-26",
+    "time": "05:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-26",
+    "time": "00:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "01:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "02:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "03:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "04:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "05:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "00:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "01:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "02:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "03:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "04:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "05:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "00:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "01:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "02:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "03:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "04:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-26",
+    "time": "05:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "00:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "01:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "02:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "03:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "04:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "05:00",
+    "bidAmount": "입찰량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "00:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-27",
+    "time": "01:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-27",
+    "time": "02:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-27",
+    "time": "03:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-27",
+    "time": "04:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-27",
+    "time": "05:00",
+    "bidAmount": "측정량",
+    "amount": 991
+  },
+  {
+    "date": "2022-12-27",
+    "time": "00:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "01:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "02:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "03:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "04:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "05:00",
+    "bidAmount": "예측량",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "00:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "01:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "02:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "03:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "04:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "05:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(1시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "00:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "01:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "02:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "03:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "04:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  },
+  {
+    "date": "2022-12-27",
+    "time": "05:00",
+    "bidAmount": "예측량",
+    "forecastAmount": "예측량(2시간전)",
+    "amount": 990
+  }
+]

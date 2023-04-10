@@ -1,0 +1,475 @@
+//---------------------------------------------------------------------------- DevExpress CSS
+
+//그리드 헤더 보더/컬러, 헤더 체크박스 크기 수정
+.dx-datagrid-headers,
+.dx-header-row:first-child:not(.dx-master-detail-row .dx-header-row, .sec_grid .dx-header-row) {
+  background-color: #d6dfef;
+  color: #000;
+  font-weight: bold;
+  border-top: 2px solid #214885;
+  td {
+    border-color: #bcc0c9 !important;
+  }
+}
+
+.dx-datagrid-borders .dx-datagrid-rowsview,
+.dx-datagrid-headers + .dx-datagrid-rowsview {
+  border-top: 0;
+}
+
+.dx-datagrid-borders .dx-datagrid-rowsview,
+.dx-datagrid-headers + .dx-datagrid-rowsview,
+.dx-treelist-rowsview {
+  border-bottom: 2px solid #214885 !important;
+}
+
+//sec_grid
+.dx-dropdowneditor-overlay {
+  .dx-popup-content {
+    padding: 8px;
+  }
+}
+
+.sec_grid {
+  .dx-datagrid-headers {
+    background: #e8e8eb;
+    color: #000;
+    font-weight: bold;
+    border-top: 0;
+  }
+  .dx-datagrid-borders .dx-datagrid-rowsview,
+  .dx-datagrid-headers + .dx-datagrid-rowsview,
+  .dx-treelist-rowsview {
+    border-bottom: 0 !important;
+  }
+  .dx-datagrid .dx-row-alt > td,
+  .dx-datagrid .dx-row-alt > tr > td,
+  .dx-treelist .dx-row-alt > td,
+  .dx-treelist .dx-row-alt > tr > td {
+    background-color: #fff;
+  }
+}
+
+//그리드 페이지 버튼 수정
+.dx-pager .dx-page-sizes .dx-selection,
+.dx-pager .dx-pages .dx-selection {
+  background-color: #ecedf3;
+  font-weight: bold;
+  color: #214885;
+}
+.dx-navigate-button {
+  color: #214885 !important;
+}
+
+//그리드 짝수 row bg 수정
+.dx-datagrid .dx-row-alt > td,
+.dx-datagrid .dx-row-alt > tr > td,
+.dx-treelist .dx-row-alt > td,
+.dx-treelist .dx-row-alt > tr > td {
+  background-color: #f5f7fb;
+}
+
+//그리드 input border값 삭제
+.dx-texteditor-input,
+.dx-texteditor.dx-editor-outlined {
+  border-radius: 0 !important;
+}
+
+//그리드 헤더 align 중앙정렬
+.dx-treelist-content .dx-treelist-table .dx-row > td,
+.dx-treelist-content .dx-treelist-table .dx-row > tr > td {
+  vertical-align: middle;
+}
+.dx-treelist .dx-column-indicators {
+  vertical-align: middle;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row > td,
+.dx-datagrid-content .dx-datagrid-table .dx-row > tr > td {
+  vertical-align: middle;
+}
+
+///그리드 헤더 체크박스 align 중앙정렬
+.dx-header-row .dx-template-wrapper {
+  display: flex;
+}
+
+//그리드 헤더 up, down 화살표 사이즈 수정
+.dx-datagrid .dx-sort-down,
+.dx-datagrid .dx-sort-up {
+  font-size: 12px;
+}
+
+///그리드 안 체크박스 중앙정렬
+.dx-checkbox-container {
+  justify-content: center;
+}
+///그리드 안 체크아이콘 크기수정
+.dx-checkbox-checked .dx-checkbox-icon {
+  font-size: 14px;
+}
+///그리드 안 체크박스 크기수정
+.dx-checkbox-icon {
+  width: 15px;
+  height: 15px;
+}
+
+//그리드 헤더 포인트 font 색상
+.dx-header-row .devest-grid-header-require {
+  color: #214885 !important;
+  font-weight: bold;
+}
+
+.dx-header-row td[role='columnheader'] {
+  text-align: center !important;
+}
+
+//그리드 포커스 색상
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row .dx-command-edit:not(.dx-focused) .dx-link,
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused),
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row > tr > td:not(.dx-focused),
+.dx-treelist-rowsview .dx-row-focused.dx-data-row .dx-command-edit:not(.dx-focused) .dx-link,
+.dx-treelist-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused),
+.dx-treelist-rowsview .dx-row-focused.dx-data-row > tr > td:not(.dx-focused) {
+  background: #3b5e93 !important;
+}
+
+//그리드 전체 font 크기 수정
+.dx-widget {
+  font-size: 12px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
+    'Malgun Gothic', sans-serif !important;
+  font-weight: 600;
+}
+
+//master 그리드
+.dx-master-detail-row:not(.dx-datagrid-edit-form) .dx-master-detail-cell,
+.dx-master-detail-row:not(.dx-datagrid-edit-form) > .dx-datagrid-group-space {
+  background: #f9f9f9;
+  border-top: 1.2px solid #cfcfcf;
+
+  // .dx-datagrid-nowrap {
+  //   white-space: normal !important;
+  // }
+
+  td {
+    border-color: #ddd !important;
+  }
+
+  .dx-datagrid-pager {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+  }
+
+  .dx-scrollable-wrapper {
+    border-bottom: 1px solid #cfcfcf;
+  }
+
+  .dx-datagrid-borders .dx-datagrid-rowsview,
+  .dx-datagrid-headers + .dx-datagrid-rowsview {
+    border-bottom: 0 !important;
+  }
+
+  //master detail 그리드 기본 회색 배경
+  .dx-datagrid-headers,
+  .dx-header-row {
+    background-color: #f1efef;
+    color: #000;
+    font-weight: bold;
+  }
+
+  //그리드 짝수 row bg 수정
+  .dx-datagrid .dx-row-alt > td,
+  .dx-datagrid .dx-row-alt > tr > td {
+    background-color: #f7f7f7;
+  }
+
+  .dx-field-item-label-content {
+    // min-width: 110px;
+    width: auto;
+    margin-right: 14px;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .dx-field-item-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  //master detail 레이아웃
+  .dx-field-item-label-content::before {
+    content: '• ';
+    color: #214885;
+  }
+
+  .dx-field-item-content .dx-checkbox-container {
+    justify-content: start !important;
+    padding: 0 8px;
+  }
+
+  .dx-box-item {
+    border: 1px solid #e7e7e7;
+    border-bottom: 0;
+
+    .dx-field-item-label {
+      // height: 32px;
+      height: 100%;
+      border-right: 1px solid #e7e7e7;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      background-color: #f9f9f9;
+    }
+  }
+
+  .dx-layout-manager .dx-label-h-align.dx-flex-layout:not(.dx-field-item-label-align) {
+    align-items: center;
+  }
+
+  .dx-box-item:last-child {
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .dx-field-item-content {
+    font-size: 12px;
+    height: 32px;
+  }
+
+  .dx-layout-manager .dx-field-item {
+    padding: 0;
+  }
+
+  .dx-texteditor-input-container,
+  .dx-selectbox,
+  .dx-texteditor,
+  .dx-textbox,
+  .dx-datebox {
+    height: 31px;
+    width: 100% !important;
+  }
+
+  .dx-template-wrapper {
+    width: 100%;
+  }
+
+  //master 그리드 업로드/삭제 버튼
+  .svg-icon {
+    height: 1.2rem !important;
+    margin: 0 auto;
+  }
+
+  .v-btn {
+    background: #ffffff !important;
+    border: 1px solid #9e9e9e;
+  }
+
+  .v-btn.v-size--default {
+    font-size: 11px;
+    height: 25px;
+    line-height: 1.2;
+  }
+
+  .v-icon.v-icon {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .v-btn__content {
+    font-weight: bold;
+    line-height: 2;
+  }
+
+  //master 그리드 다운로드 버튼
+  .download_icon {
+    padding-right: 2.2px;
+  }
+}
+
+
+
+.dx-adaptive-detail-row > td,
+.dx-adaptive-detail-row > td {
+  background: #fff !important;
+}
+
+//master detail 그리드 focused 하늘색 배경
+.dx-row-focused + .dx-master-detail-row:not(.dx-adaptive-detail-row, .dx-focused) > td:not(.dx-focused) {
+  background: #2a436a2b !important;
+  .dx-datagrid-headers,
+  .dx-header-row {
+    background-color: #e9eef3 !important;
+  }
+
+  //그리드 짝수 row bg 수정
+  .dx-datagrid .dx-row-alt > td,
+  .dx-datagrid .dx-row-alt > tr > td {
+    background-color: #e9eef342;
+  }
+}
+
+//master detail 카드 padding-top 수정
+.dx-datagrid-rowsview .dx-master-detail-row > .dx-master-detail-cell {
+  padding-top: 10px !important;
+}
+
+// 트리는 페이지 없애고 총 개수만 남아있게 하는거
+.dx-treelist .dx-page-indexes div[role='button'] {
+  display: none !important;
+}
+
+.dx-treelist .dx-page-indexes .dx-separator {
+  display: none !important;
+}
+
+.dx-command-select {
+  width: 30px !important;
+  min-width: 30px !important;
+}
+
+//dx-calendar 수정
+.dx-calendar-body thead tr th {
+  color: #214885;
+}
+
+.dx-calendar-cell {
+  font-size: 12px;
+}
+
+.dx-calendar-cell.dx-calendar-selected-date.dx-calendar-contoured-date,
+.dx-calendar-cell.dx-calendar-selected-date.dx-calendar-today.dx-calendar-contoured-date {
+  box-shadow: inset 0 0 0 1px #214885, inset 0 0 0 1000px #3b5e93;
+}
+
+.dx-calendar-today {
+  color: #033075;
+}
+
+.dx-calendar-navigator {
+  .dx-icon,
+  .dx-button-content {
+    color: #214885 !important;
+  }
+  .dx-button {
+    border: 0;
+  }
+}
+
+//focused row icon color 변경
+.dx-row:not(.dx-row-focused) {
+  .excel_icon {
+    color: #217346 !important;
+  }
+  .jpg_icon {
+    color: #e46d09 !important;
+  }
+  .doc_icon {
+    color: #2b579a !important;
+  }
+  .pdf_icon {
+    color: #ff2216 !important;
+  }
+  .png_icon {
+    color: #e99a00 !important;
+  }
+  .ppt_icon {
+    color: #d24726 !important;
+  }
+  .hwp_icon {
+    color: #4289c9 !important;
+  }
+  .txt_icon {
+    color: #21a2bf !important;
+  }
+  .zip_icon {
+    color: #000 !important;
+  }
+}
+
+.dx-row-focused .file_icon {
+  color: #fff !important;
+}
+
+
+// lookup input
+.dx-lookup {
+    height: 30px;
+    font-size: 13px;
+    line-height: 16px;
+    border: 1px solid #9e9e9e !important;
+    .dx-lookup-field {
+      color: #666666;
+    }
+    .dx-lookup-arrow {
+      transform: rotate(90deg) !important;
+    }
+  }
+  
+  .dx-dropdowneditor-active {
+    border: 1px solid #214885 !important;
+  }
+  
+  .dx-toolbar-label {
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+  
+  .dx-lookup-search-wrapper {
+    padding: 8px;
+  }
+  
+  .dx-popup-normal {
+    .dx-button {
+      border-radius: 0 !important;
+    }
+  }
+
+  
+//dx loadPanel
+.dx-loadpanel-message {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .dx-loadindicator-icon .dx-loadindicator-segment {
+    background: #222;
+  }
+  
+  //dx popup
+  .dx-popup-title {
+    padding: 6px 10px;
+  }
+  
+  .dx-popup-content {
+    padding: 16px;
+    min-width: 160px;
+  }
+  
+  .dx-popup-bottom.dx-toolbar {
+    padding: 10px;
+  }
+
+  
+//반응형 디테일 그리드
+.dx-layout-manager.dx-layout-manager-one-col .dx-box-item:not(:first-child) .dx-single-column-item-content > .dx-field-item {
+    padding-top: 0px;
+  }
+  
+  // dxlookup 컨텐츠 최소 높이
+  .dx-popup-content {
+    // min-height: 155px !important;
+  }
+  
+  //반응형시 디테일 그리드 text-overflow ellipsis 처리
+  // .dx-master-detail-row:not(.dx-datagrid-edit-form) .dx-master-detail-cell .dx-field-item-content,
+  // .dx-master-detail-row:not(.dx-datagrid-edit-form) > .dx-datagrid-group-space .dx-field-item-content {
+  //   display: block !important;
+  //   overflow: hidden;
+  //   text-overflow: ellipsis;
+  // }
+  .dx-htmleditor .dx-htmleditor-toolbar-wrapper .dx-toolbar-text-auto-hide .dx-button .dx-icon {
+    line-height: 15px !important;
+  }
