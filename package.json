@@ -43,7 +43,7 @@
     "vue-daum-postcode": "^0.9.0",
     "vue-echarts": "^6.0.0-alpha.4",
     "vue-grid-layout": "^2.3.12",
-    "vue-i18n": "^8.17.7",
+
     "vue-json-editor": "^1.4.3",
     "vue-pdf": "^4.2.0",
     "vue-pdf-app": "^1.0.2",
@@ -75,7 +75,7 @@
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.2",
     "svg-sprite-loader": "^5.0.0",
-    "vue-cli-plugin-i18n": "~1.0.1",
+
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.11"
   },
